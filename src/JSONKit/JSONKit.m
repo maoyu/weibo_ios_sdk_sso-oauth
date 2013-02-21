@@ -926,7 +926,7 @@ static JKDictionary *_JKDictionaryCreate(id *keys, NSUInteger *keyHashes, id *ob
   NSCParameterAssert((keys != NULL) && (keyHashes != NULL) && (objects != NULL) && (_JKDictionaryClass != NULL) && (_JKDictionaryInstanceSize > 0UL));
   JKDictionary *dictionary = NULL;
   if(JK_EXPECT_T((dictionary = (JKDictionary *)calloc(1UL, _JKDictionaryInstanceSize)) != NULL)) { // Directly allocate the JKDictionary instance via calloc.
-    object_setClass(dictionary, _JKArrayClass);
+    object_setClass(dictionary, _JKDictionaryClass);
     if((dictionary = [dictionary init]) == NULL) { return(NULL); }
     dictionary->capacity = _JKDictionaryCapacityForCount(count);
     dictionary->count    = 0UL;

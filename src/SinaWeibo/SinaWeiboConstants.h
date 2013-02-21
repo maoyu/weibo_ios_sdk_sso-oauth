@@ -14,10 +14,10 @@
 #define kSinaWeiboSDKErrorDomain           @"SinaWeiboSDKErrorDomain"
 #define kSinaWeiboSDKErrorCodeKey          @"SinaWeiboSDKErrorCodeKey"
 
-#define kSinaWeiboSDKAPIDomain             @"https://api.weibo.com/2/"
-#define kSinaWeiboSDKOAuth2APIDomain       @"https://api.weibo.com/2/oauth2/"
-#define kSinaWeiboWebAuthURL               @"https://api.weibo.com/2/oauth2/authorize"
-#define kSinaWeiboWebAccessTokenURL        @"https://api.weibo.com/2/oauth2/access_token"
+#define kSinaWeiboSDKAPIDomain             @"https://api.weibo.com/"
+#define kSinaWeiboSDKOAuth2APIDomain       @"https://api.weibo.com/oauth2/"
+#define kSinaWeiboWebAuthURL               @"https://api.weibo.com/oauth2/authorize"
+#define kSinaWeiboWebAccessTokenURL        @"https://api.weibo.com/oauth2/access_token"
 
 #define kSinaWeiboAppAuthURL_iPhone        @"sinaweibosso://login"
 #define kSinaWeiboAppAuthURL_iPad          @"sinaweibohdsso://login"
